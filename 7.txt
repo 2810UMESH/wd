@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 7 </title>
+    </head>
+    <body>
+        <script>
+            function sum()
+            {
+            var x=parseInt(prompt("Enter first number:",));
+            var y=parseInt(prompt("Enter second number:",));
+            var z=x+y;
+            document.write("sum of "+x+" and "+y+" is "+z);
+            }
+        </script>
+        <p>Sum of two number using dailog box</p>
+       <button onclick="sum()" style="background-color: white;color: black;width: 80px;margin: 0;padding: 5px;border:2px solid #82e8e6;border-color: #82e8e6;">Check</button>
+    </body>
+</html>

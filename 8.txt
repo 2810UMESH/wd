@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 8</title>
+        <style>
+            #bt
+            {
+             background-color: white;
+             border-color: rgb(7, 7, 7);
+             border: 2px solid rgb(7, 7, 7) ;
+             padding:5px;
+             width: 80px;
+
+            }
+            #bt:hover
+            {
+                background-color: rgb(7, 7, 7);
+                color: white; 
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+          function error()
+          {
+         var a=26;
+         try
+          {
+              var b=a.uppercase();
+              alert("value of "+a+" is "+b);
+          }
+         catch(e)
+         {
+             alert(error.name);
+         }
+         finally
+         {
+             alert("this block will always execute")
+         }
+          }
+        </script>
+        Check exception using try,catch block
+        <button id="bt" onclick="error()">check</button>
+    </body>
+</html>
